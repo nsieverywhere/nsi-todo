@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nsi-todo/static/css/main.7fbd7bba.chunk.css",
+    "main.js": "/nsi-todo/static/js/main.0aa87691.chunk.js",
+    "main.js.map": "/nsi-todo/static/js/main.0aa87691.chunk.js.map",
+    "runtime-main.js": "/nsi-todo/static/js/runtime-main.b5eaac98.js",
+    "runtime-main.js.map": "/nsi-todo/static/js/runtime-main.b5eaac98.js.map",
+    "static/js/2.e42e525d.chunk.js": "/nsi-todo/static/js/2.e42e525d.chunk.js",
+    "static/js/2.e42e525d.chunk.js.map": "/nsi-todo/static/js/2.e42e525d.chunk.js.map",
+    "index.html": "/nsi-todo/index.html",
+    "static/css/main.7fbd7bba.chunk.css.map": "/nsi-todo/static/css/main.7fbd7bba.chunk.css.map",
+    "static/js/2.e42e525d.chunk.js.LICENSE.txt": "/nsi-todo/static/js/2.e42e525d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5eaac98.js",
+    "static/js/2.e42e525d.chunk.js",
+    "static/css/main.7fbd7bba.chunk.css",
+    "static/js/main.0aa87691.chunk.js"
+  ]
+}
