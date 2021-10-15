@@ -12,7 +12,7 @@ margin-bottom: 1rem;
 function Header() {
     return (
         <Head>
-            <Title color={"white"}>Nsi Todo App</Title>
+            <Title color={"white"}>Nsi Note App</Title>
         </Head>
     )
 }

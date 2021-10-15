@@ -10,7 +10,7 @@ function Home() {
     const onAdd = (entry) =>{
         SetCardItems([...cardItems, entry]);
     }
-    console.log(cardItems);
+    
 
 
     return (
@@ -18,7 +18,7 @@ function Home() {
             <Entry onAdd={onAdd} />
             <div className={Homecss.cardcontainer}>
                 {cardItems.map((i)=>{
-                    return <Cards key={i.n} cardcontent={i.entry} />
+                    return <Cards key={i.n} title={i.title} cardcontent={i.entry} />
                 })}
             </div>
         </div>

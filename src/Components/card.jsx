@@ -12,9 +12,7 @@ function Cards(props) {
         <div>
             <Card variant="outlined" className={Cardcss.cards} >
                 <h3>{props.title}</h3>
-                <p>
-                    {props.cardcontent}
-                </p>
+                <p>{props.cardcontent}</p>
                 <IconButton onClick={start} className={Cardcss.deletebtn}>
                     <Delete  />    
                 </IconButton>
