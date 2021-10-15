@@ -30,10 +30,13 @@ function Entry(props) {
             setTimeout(() => {
                setEntryalert("")
             }, 1000);
+        }else{
+            let d = new Date();
+            let n = d.valueOf();
+            props.onAdd({n, entry});
+            SetEntry("");
         }
 
-        props.onAdd({entry});
-        SetEntry("");
         
     } 
     return (
