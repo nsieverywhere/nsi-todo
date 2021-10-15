@@ -9,7 +9,6 @@ function home() {
 
     const onAdd = (entry) =>{
         CardItem.push(entry);
-        console.log(CardItem);
     }
 
 
@@ -17,8 +16,11 @@ function home() {
         <div>
             <Entry onAdd={onAdd} />
             <div className={Home.cardcontainer}>
-               <Cards title="my first todo" cardcontent="nsi is the best " />
-                <Cards title="my first todo" cardcontent="nsi is the best" />                                                                                        
+               {console.log(CardItem)}
+                {/* {CardItem.map((carditem)=>{
+                    console.log(carditem.entry);
+                })} */}
+            
             </div>
         </div>
     )
